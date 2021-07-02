@@ -9,5 +9,12 @@
   "private": true,
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "keywords": [
+    "vue",
+    "ui"
+  ],
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
 }
