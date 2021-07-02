@@ -11,7 +11,6 @@
 </template>
 
 <script>
-import './button.css'
 export default {
   name: 'VmButton',
   props: {
@@ -40,5 +39,23 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.vm-btn {
+  display: inline-block;
+  padding: 5px 10px;
+  color: #fff;
+  background-color: #2d88ff;
+  font-size: 14px;
+  border: none;
+  border-radius: 2px;
+}
+
+.vm-btn:not(.vm-disable):hover {
+  background-color: #4093ff;
+}
+
+.vm-disable {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
 </style>
