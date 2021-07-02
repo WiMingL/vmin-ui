@@ -1,0 +1,13 @@
+{
+  "name": "vmin-ui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lerna": "lerna publish"
+  },
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
